@@ -12,16 +12,16 @@ public class NumberGuessingGame {
         
         while (true) {
 			guess=sc.nextInt();
-			if(guess==randumNum) {
-				System.out.print("Congratulations, you guessed the number!");
-				break;
-			}
-			else if(guess>=randumNum) {
-				System.out.println("Your guess is too high. Try again :)");
-			}
-			else {
-				System.out.println("Your guess is too low. Try again:)");
-			}
+		if(guess==randumNum) {
+			System.out.print("Congratulations, you guessed the number!");
+			break;
+		}
+		else if(guess>=randumNum) {
+			System.out.println("Your guess is too high. Try again :)");
+		}
+		else {
+			System.out.println("Your guess is too low. Try again:)");
+		}
 			
 		}
         sc.close();
