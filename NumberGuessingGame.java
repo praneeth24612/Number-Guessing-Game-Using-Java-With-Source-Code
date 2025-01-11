@@ -23,7 +23,7 @@ public class NumberGuessingGame {
 			System.out.println("Your guess is too low. Try again:)");
 		}
 			
-		}
+	}
         sc.close();
     }
 }
